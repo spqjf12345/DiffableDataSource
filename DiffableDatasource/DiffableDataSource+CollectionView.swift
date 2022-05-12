@@ -109,6 +109,7 @@ extension CollectionViewDiffableDataSourceContoller {
             // Return the cell.
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: identifier)
         }
+        
     }
     
     func performQuery(with filter: String?) {

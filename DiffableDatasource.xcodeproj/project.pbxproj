@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		338F27154BBF504DCE5518A6 /* Pods_DiffableDatasource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E8515EDFEDC1661557677D /* Pods_DiffableDatasource.framework */; };
+		8E22180F282D1E3B00A4982B /* ExpandableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22180E282D1E3B00A4982B /* ExpandableCollectionViewController.swift */; };
 		8EA44E10282A4330001BAC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA44E0F282A4330001BAC4E /* AppDelegate.swift */; };
 		8EA44E12282A4330001BAC4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA44E11282A4330001BAC4E /* SceneDelegate.swift */; };
 		8EA44E14282A4330001BAC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA44E13282A4330001BAC4E /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		86D6F95A343FDF87E6AE233D /* Pods-DiffableDatasource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiffableDatasource.release.xcconfig"; path = "Target Support Files/Pods-DiffableDatasource/Pods-DiffableDatasource.release.xcconfig"; sourceTree = "<group>"; };
+		8E22180E282D1E3B00A4982B /* ExpandableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCollectionViewController.swift; sourceTree = "<group>"; };
 		8EA44E0C282A4330001BAC4E /* DiffableDatasource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDatasource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA44E0F282A4330001BAC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA44E11282A4330001BAC4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		8EA44E0E282A4330001BAC4E /* DiffableDatasource */ = {
 			isa = PBXGroup;
 			children = (
+				8E22180E282D1E3B00A4982B /* ExpandableCollectionViewController.swift */,
 				8EA44E23282A49A7001BAC4E /* DiffableDataSource+CollectionView.swift */,
 				8EA44E25282A4AE1001BAC4E /* Cell */,
 				8EA44E0F282A4330001BAC4E /* AppDelegate.swift */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA44E24282A49A7001BAC4E /* DiffableDataSource+CollectionView.swift in Sources */,
+				8E22180F282D1E3B00A4982B /* ExpandableCollectionViewController.swift in Sources */,
 				8EA44E14282A4330001BAC4E /* ViewController.swift in Sources */,
 				8EA44E10282A4330001BAC4E /* AppDelegate.swift in Sources */,
 				8EA44E27282A4BD2001BAC4E /* SongCollectionViewCell.swift in Sources */,
